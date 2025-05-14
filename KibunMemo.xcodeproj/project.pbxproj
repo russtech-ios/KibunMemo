@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5377E7EE2DD4344B0020FF0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377E7EB2DD4344B0020FF0D /* ContentView.swift */; };
+		5377E7EF2DD4344B0020FF0D /* KibunMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377E7EC2DD4344B0020FF0D /* KibunMemoApp.swift */; };
+		5377E7F02DD4344B0020FF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5377E7EA2DD4344B0020FF0D /* Assets.xcassets */; };
+		5377E7F32DD4344F0020FF0D /* KibunMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377E7F12DD4344F0020FF0D /* KibunMemoTests.swift */; };
+		5377E8012DD436810020FF0D /* KibunMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377E7FE2DD436810020FF0D /* KibunMemoUITests.swift */; };
+		5377E8022DD436810020FF0D /* KibunMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377E7FF2DD436810020FF0D /* KibunMemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5377E7CE2DD3282F0020FF0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +36,13 @@
 		5377E7C02DD3282E0020FF0D /* KibunMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KibunMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5377E7CD2DD3282F0020FF0D /* KibunMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KibunMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5377E7D72DD3282F0020FF0D /* KibunMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KibunMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5377E7EA2DD4344B0020FF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5377E7EB2DD4344B0020FF0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5377E7EC2DD4344B0020FF0D /* KibunMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KibunMemoApp.swift; sourceTree = "<group>"; };
+		5377E7F12DD4344F0020FF0D /* KibunMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KibunMemoTests.swift; sourceTree = "<group>"; };
+		5377E7FE2DD436810020FF0D /* KibunMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KibunMemoUITests.swift; sourceTree = "<group>"; };
+		5377E7FF2DD436810020FF0D /* KibunMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KibunMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5377E7C22DD3282E0020FF0D /* KibunMemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KibunMemo;
-			sourceTree = "<group>";
-		};
-		5377E7D02DD3282F0020FF0D /* KibunMemoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KibunMemoTests;
-			sourceTree = "<group>";
-		};
-		5377E7DA2DD3282F0020FF0D /* KibunMemoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KibunMemoUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5377E7BD2DD3282E0020FF0D /* Frameworks */ = {
@@ -75,9 +72,9 @@
 		5377E7B72DD3282E0020FF0D = {
 			isa = PBXGroup;
 			children = (
-				5377E7C22DD3282E0020FF0D /* KibunMemo */,
-				5377E7D02DD3282F0020FF0D /* KibunMemoTests */,
-				5377E7DA2DD3282F0020FF0D /* KibunMemoUITests */,
+				5377E7ED2DD4344B0020FF0D /* KibunMemo */,
+				5377E7F22DD4344F0020FF0D /* KibunMemoTests */,
+				5377E8002DD436810020FF0D /* KibunMemoUITests */,
 				5377E7C12DD3282E0020FF0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +87,33 @@
 				5377E7D72DD3282F0020FF0D /* KibunMemoUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5377E7ED2DD4344B0020FF0D /* KibunMemo */ = {
+			isa = PBXGroup;
+			children = (
+				5377E7EA2DD4344B0020FF0D /* Assets.xcassets */,
+				5377E7EB2DD4344B0020FF0D /* ContentView.swift */,
+				5377E7EC2DD4344B0020FF0D /* KibunMemoApp.swift */,
+			);
+			path = KibunMemo;
+			sourceTree = "<group>";
+		};
+		5377E7F22DD4344F0020FF0D /* KibunMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5377E7F12DD4344F0020FF0D /* KibunMemoTests.swift */,
+			);
+			path = KibunMemoTests;
+			sourceTree = "<group>";
+		};
+		5377E8002DD436810020FF0D /* KibunMemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5377E7FE2DD436810020FF0D /* KibunMemoUITests.swift */,
+				5377E7FF2DD436810020FF0D /* KibunMemoUITestsLaunchTests.swift */,
+			);
+			path = KibunMemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +130,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5377E7C22DD3282E0020FF0D /* KibunMemo */,
 			);
 			name = KibunMemo;
 			packageProductDependencies = (
@@ -130,9 +151,6 @@
 			dependencies = (
 				5377E7CF2DD3282F0020FF0D /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				5377E7D02DD3282F0020FF0D /* KibunMemoTests */,
-			);
 			name = KibunMemoTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +170,6 @@
 			);
 			dependencies = (
 				5377E7D92DD3282F0020FF0D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5377E7DA2DD3282F0020FF0D /* KibunMemoUITests */,
 			);
 			name = KibunMemoUITests;
 			packageProductDependencies = (
@@ -212,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5377E7F02DD4344B0020FF0D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5377E7EE2DD4344B0020FF0D /* ContentView.swift in Sources */,
+				5377E7EF2DD4344B0020FF0D /* KibunMemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5377E7F32DD4344F0020FF0D /* KibunMemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5377E8012DD436810020FF0D /* KibunMemoUITests.swift in Sources */,
+				5377E8022DD436810020FF0D /* KibunMemoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
