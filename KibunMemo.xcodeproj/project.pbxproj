@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5377E7EE2DD4344B0020FF0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377E7EB2DD4344B0020FF0D /* ContentView.swift */; };
+		5377E7EF2DD4344B0020FF0D /* KibunMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377E7EC2DD4344B0020FF0D /* KibunMemoApp.swift */; };
+		5377E7F02DD4344B0020FF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5377E7EA2DD4344B0020FF0D /* Assets.xcassets */; };
+		5377E7F32DD4344F0020FF0D /* KibunMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377E7F12DD4344F0020FF0D /* KibunMemoTests.swift */; };
+		5377E8012DD436810020FF0D /* KibunMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377E7FE2DD436810020FF0D /* KibunMemoUITests.swift */; };
+		5377E8022DD436810020FF0D /* KibunMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377E7FF2DD436810020FF0D /* KibunMemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5377E7CE2DD3282F0020FF0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,28 +33,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53564A702DD46E2B0059623E /* BuildTools */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BuildTools; sourceTree = "<group>"; };
+		53564A752DD4E2580059623E /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
 		5377E7C02DD3282E0020FF0D /* KibunMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KibunMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5377E7CD2DD3282F0020FF0D /* KibunMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KibunMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5377E7D72DD3282F0020FF0D /* KibunMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KibunMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5377E7EA2DD4344B0020FF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5377E7EB2DD4344B0020FF0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5377E7EC2DD4344B0020FF0D /* KibunMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KibunMemoApp.swift; sourceTree = "<group>"; };
+		5377E7F12DD4344F0020FF0D /* KibunMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KibunMemoTests.swift; sourceTree = "<group>"; };
+		5377E7FE2DD436810020FF0D /* KibunMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KibunMemoUITests.swift; sourceTree = "<group>"; };
+		5377E7FF2DD436810020FF0D /* KibunMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KibunMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5377E7C22DD3282E0020FF0D /* KibunMemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KibunMemo;
-			sourceTree = "<group>";
-		};
-		5377E7D02DD3282F0020FF0D /* KibunMemoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KibunMemoTests;
-			sourceTree = "<group>";
-		};
-		5377E7DA2DD3282F0020FF0D /* KibunMemoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KibunMemoUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5377E7BD2DD3282E0020FF0D /* Frameworks */ = {
@@ -75,9 +74,11 @@
 		5377E7B72DD3282E0020FF0D = {
 			isa = PBXGroup;
 			children = (
-				5377E7C22DD3282E0020FF0D /* KibunMemo */,
-				5377E7D02DD3282F0020FF0D /* KibunMemoTests */,
-				5377E7DA2DD3282F0020FF0D /* KibunMemoUITests */,
+				53564A752DD4E2580059623E /* .swiftformat */,
+				53564A702DD46E2B0059623E /* BuildTools */,
+				5377E7ED2DD4344B0020FF0D /* KibunMemo */,
+				5377E7F22DD4344F0020FF0D /* KibunMemoTests */,
+				5377E8002DD436810020FF0D /* KibunMemoUITests */,
 				5377E7C12DD3282E0020FF0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +93,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5377E7ED2DD4344B0020FF0D /* KibunMemo */ = {
+			isa = PBXGroup;
+			children = (
+				5377E7EA2DD4344B0020FF0D /* Assets.xcassets */,
+				5377E7EB2DD4344B0020FF0D /* ContentView.swift */,
+				5377E7EC2DD4344B0020FF0D /* KibunMemoApp.swift */,
+			);
+			path = KibunMemo;
+			sourceTree = "<group>";
+		};
+		5377E7F22DD4344F0020FF0D /* KibunMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5377E7F12DD4344F0020FF0D /* KibunMemoTests.swift */,
+			);
+			path = KibunMemoTests;
+			sourceTree = "<group>";
+		};
+		5377E8002DD436810020FF0D /* KibunMemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5377E7FE2DD436810020FF0D /* KibunMemoUITests.swift */,
+				5377E7FF2DD436810020FF0D /* KibunMemoUITestsLaunchTests.swift */,
+			);
+			path = KibunMemoUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +127,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5377E7E12DD3282F0020FF0D /* Build configuration list for PBXNativeTarget "KibunMemo" */;
 			buildPhases = (
+				53564A712DD46FCB0059623E /* Swift Format */,
 				5377E7BC2DD3282E0020FF0D /* Sources */,
 				5377E7BD2DD3282E0020FF0D /* Frameworks */,
 				5377E7BE2DD3282E0020FF0D /* Resources */,
@@ -106,9 +135,7 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5377E7C22DD3282E0020FF0D /* KibunMemo */,
+				5377E8052DD43B030020FF0D /* PBXTargetDependency */,
 			);
 			name = KibunMemo;
 			packageProductDependencies = (
@@ -128,10 +155,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				5377E8072DD43B350020FF0D /* PBXTargetDependency */,
 				5377E7CF2DD3282F0020FF0D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5377E7D02DD3282F0020FF0D /* KibunMemoTests */,
 			);
 			name = KibunMemoTests;
 			packageProductDependencies = (
@@ -144,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5377E7E72DD3282F0020FF0D /* Build configuration list for PBXNativeTarget "KibunMemoUITests" */;
 			buildPhases = (
+				53564A722DD470B60059623E /* Swift Format */,
 				5377E7D32DD3282F0020FF0D /* Sources */,
 				5377E7D42DD3282F0020FF0D /* Frameworks */,
 				5377E7D52DD3282F0020FF0D /* Resources */,
@@ -151,10 +177,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				5377E8092DD43B3A0020FF0D /* PBXTargetDependency */,
 				5377E7D92DD3282F0020FF0D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5377E7DA2DD3282F0020FF0D /* KibunMemoUITests */,
 			);
 			name = KibunMemoUITests;
 			packageProductDependencies = (
@@ -195,6 +219,9 @@
 			);
 			mainGroup = 5377E7B72DD3282E0020FF0D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5377E8032DD43AF40020FF0D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5377E7C12DD3282E0020FF0D /* Products */;
 			projectDirPath = "";
@@ -212,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5377E7F02DD4344B0020FF0D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,11 +259,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53564A712DD46FCB0059623E /* Swift Format */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Format";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd BuildTools\nSDKROOT=(xcrun --sdk macosx --show-sdk-path)\n#swift package update #Uncomment this line temporarily to update the version used to the latest matching your BuildTools/Package.swift file\nswift run -c release swiftformat --lint --lenient \"$SRCROOT\"\n";
+		};
+		53564A722DD470B60059623E /* Swift Format */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Format";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd BuildTools\nSDKROOT=(xcrun --sdk macosx --show-sdk-path)\n#swift package update #Uncomment this line temporarily to update the version used to the latest matching your BuildTools/Package.swift file\nswift run -c release swiftformat \"$SRCROOT\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5377E7BC2DD3282E0020FF0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5377E7EE2DD4344B0020FF0D /* ContentView.swift in Sources */,
+				5377E7EF2DD4344B0020FF0D /* KibunMemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5377E7F32DD4344F0020FF0D /* KibunMemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +322,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5377E8012DD436810020FF0D /* KibunMemoUITests.swift in Sources */,
+				5377E8022DD436810020FF0D /* KibunMemoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +339,18 @@
 			isa = PBXTargetDependency;
 			target = 5377E7BF2DD3282E0020FF0D /* KibunMemo */;
 			targetProxy = 5377E7D82DD3282F0020FF0D /* PBXContainerItemProxy */;
+		};
+		5377E8052DD43B030020FF0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 5377E8042DD43B030020FF0D /* SwiftLintBuildToolPlugin */;
+		};
+		5377E8072DD43B350020FF0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 5377E8062DD43B350020FF0D /* SwiftLintBuildToolPlugin */;
+		};
+		5377E8092DD43B3A0020FF0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 5377E8082DD43B3A0020FF0D /* SwiftLintBuildToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -307,7 +393,7 @@
 				DEVELOPMENT_TEAM = APQQ8NFXX7;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -371,7 +457,7 @@
 				DEVELOPMENT_TEAM = APQQ8NFXX7;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -413,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.KibunMemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -441,7 +527,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.KibunMemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -459,7 +545,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.KibunMemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KibunMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KibunMemo";
 			};
@@ -478,7 +564,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.KibunMemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KibunMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KibunMemo";
 			};
@@ -495,7 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.KibunMemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = KibunMemo;
 			};
@@ -512,7 +598,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.KibunMemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = KibunMemo;
 			};
@@ -558,6 +644,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5377E8032DD43AF40020FF0D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.59.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5377E8042DD43B030020FF0D /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5377E8032DD43AF40020FF0D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		5377E8062DD43B350020FF0D /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5377E8032DD43AF40020FF0D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		5377E8082DD43B3A0020FF0D /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5377E8032DD43AF40020FF0D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5377E7B82DD3282E0020FF0D /* Project object */;
 }
